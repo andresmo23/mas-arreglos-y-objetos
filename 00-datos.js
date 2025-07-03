@@ -12,3 +12,35 @@ export const productosTiendaCompleto = [
   { id: 11, nombre: "Silla Gamer Ergonómica", precio: 300000, categoria: "muebles", stock: 5, valoracion: 4.3 },
   { id: 12, nombre: "Smartwatch Deportivo", precio: 200000, categoria: "wearables", stock: 1, valoracion: 4.2 }, // Stock muy bajo
 ];
+
+export const transaccionesBancarias = [
+  { id: "t1", tipo: "deposito", monto: 1000, fecha: "2023-01-05" },
+  { id: "t2", tipo: 200, fecha: "2023-01-07" }, // Nota: 'tipo' es un número aquí para un ejercicio
+  { id: "t3", tipo: "compra", monto: 150, fecha: "2023-01-08" },
+  { id: "t4", tipo: "deposito", monto: 500, fecha: "2023-01-10" },
+  { id: "t5", tipo: "retiro", monto: 300, fecha: "2023-02-01" },
+  { id: "t6", tipo: "compra", monto: 50, fecha: "2023-02-03" },
+];
+
+export const configuracionApp = {
+  tema: "oscuro",
+  notificaciones: {
+    email: true,
+    sms: false,
+    push: true,
+  },
+  idioma: "es",
+  version: "1.2.0",
+  permisos: {
+    camara: "denegado",
+    microfono: "permitido",
+  },
+};
+
+export const listaTareas = [
+  { id: "a1", descripcion: "Comprar víveres", completada: false, prioridad: "alta" },
+  { id: "a2", descripcion: "Enviar informe", completada: true, prioridad: "media" },
+  { id: "a3", descripcion: "Llamar a cliente", completada: false, prioridad: "alta" },
+  { id: "a4", descripcion: "Pagar facturas", completada: false, prioridad: "baja" },
+  { id: "a5", descripcion: "Hacer ejercicio", completada: true, prioridad: "media" },
+];
